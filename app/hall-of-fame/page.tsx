@@ -36,7 +36,7 @@ export default function HallOfFamePage() {
           <SiteHeader currentPage="hall-of-fame" />
           <main>
             <div className="container-yellow p-8 text-center">
-              <h3 className="text-3xl font-bold mb-4">LOADING LEGENDS...</h3>
+              <h3 className="text-3xl font-bold mb-4">LOADING BENS...</h3>
             </div>
           </main>
         </div>
@@ -52,7 +52,7 @@ export default function HallOfFamePage() {
           <main>
             <div className="container-yellow p-8 text-center">
               <h3 className="text-3xl font-bold mb-4">
-                OOPS! ERROR LOADING LEGENDS
+                OOPS! ERROR LOADING BENS
               </h3>
               <p className="text-xl">{result.error}</p>
             </div>
@@ -90,7 +90,7 @@ export default function HallOfFamePage() {
                 <div className="block md:hidden">
                   <div className="container-yellow p-4 mb-4">
                     <div className="text-center mb-2">
-                      <h2 className="text-2xl font-bold">★ TOP 5 LEGENDS ★</h2>
+                      <h2 className="text-2xl font-bold">★ TOP 5 BENS ★</h2>
                       <p className="text-sm">
                         ({currentIndex + 1} of {mobileBens?.length || 0})
                       </p>
@@ -329,7 +329,7 @@ export default function HallOfFamePage() {
             </>
           ) : (
             <div className="container-yellow p-8 text-center">
-              <h3 className="text-3xl font-bold mb-4">NO LEGENDS YET</h3>
+              <h3 className="text-3xl font-bold mb-4">NO BENS YET</h3>
               <p className="text-xl">Be the first to enter the Hall of Fame</p>
             </div>
           )}
